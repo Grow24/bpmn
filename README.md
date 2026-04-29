@@ -119,3 +119,4 @@ Set these in each service:
 ## Customization
 - Add RBAC/JWT checks to `requireAdmin` in backend.
 - Implement real integrations in workers (email, DB, HTTP) and keep domain allowlists tight.
+# bpmn
