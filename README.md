@@ -7,6 +7,20 @@ This repo contains:
 - `frontend/` (React + bpmn.io editor)
 - `frontend-template/` (template source used by frontend)
 
+## One-command run
+
+From project root:
+
+```bash
+./start.sh
+```
+
+This starts **frontend + backend + workers + camunda + mongo** together via Docker Compose.
+
+- Frontend: `http://localhost:3000`
+- Backend: `http://localhost:4000/health`
+- Camunda: `http://localhost:8080/camunda`
+
 ## Prerequisites
 - Docker & Docker Compose
 - Node.js 18+ and npm
